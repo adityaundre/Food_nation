@@ -1,0 +1,29 @@
+.head-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+.head-container{
+    border: 2px solid black;
+    margin: 2px;
+ 
+}
+
+.head-wrapper>ul{
+    list-style-type: none;
+    display: flex;
+    
+    
+    
+    
+}
+
+.head-wrapper>ul>li{
+    margin: 5px;
+    
+}
+.head-wrapper>img{
+    height: 100px;
+    width: 200px;
+}
