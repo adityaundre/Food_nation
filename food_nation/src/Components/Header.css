@@ -1,29 +1,29 @@
-.head-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5px;
-}
+
 .head-container{
     border: 2px solid black;
     margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  
 }
 
-.head-wrapper>ul{
-    list-style-type: none;
+.nav-items>ul{
     display: flex;
-    
-    
-    
-    
+    gap: 7px;
+    list-style-type: none;
+    margin: 5px;
 }
 
-.head-wrapper>ul>li{
-    margin: 5px;
-    
+
+.btn{
+    height: 23px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
 }
-.head-wrapper>img{
+.head-logo{
+    cursor: pointer;
     height: 100px;
     width: 200px;
 }
